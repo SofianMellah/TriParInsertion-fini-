@@ -3,6 +3,7 @@ console.log(tableau);
 
 document.getElementById("debut").innerHTML = tableau
 
+/* Début ordre croissant */
 function triAInsertionCroissant(tableau) {
 
     let length = tableau.length
@@ -21,10 +22,12 @@ function triAInsertionCroissant(tableau) {
     console.log(tableau);
     document.getElementById("resultatcroissant").innerHTML = tableau
 }
+/* Fin ordre croissant */
+
 // triAInsertion(tableau) /* On rappel la fonction pour qu'elle se fasse, si on veut qu'elle se fasse sans pour autant cliquer sur le bouton*/
 console.log(tableau);
 
-
+/* Début ordre decroissant */
 function triAInsertionDecroissant(tableau) {
 
     let length = tableau.length
@@ -43,5 +46,7 @@ function triAInsertionDecroissant(tableau) {
     console.log(tableau);
     document.getElementById("resultatdecroissant").innerHTML = tableau
 }
+/* Fin ordre decroissant */
+
 // triAInsertion(tableau) /* On rappel la fonction pour qu'elle se fasse, si on veut qu'elle se fasse sans pour autant cliquer sur le bouton*/
 console.log(tableau);
